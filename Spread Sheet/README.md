@@ -1,6 +1,6 @@
 ```
 Author:     Phuc Hoang
-Partner:    None
+Partner:    Chanphone Visathip
 Start Date: 10-Jan-2024
 Course:     CS 3500, University of Utah, School of Computing
 GitHub ID:  PhucHoang123
