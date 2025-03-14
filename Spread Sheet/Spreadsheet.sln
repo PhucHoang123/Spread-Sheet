@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaEvaluator", "FormulaEvaluator\FormulaEvaluator.csproj", "{12F241E9-C59A-47CF-B25D-08CA4DBE976F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaEvaluatorTester", "FormulaEvaluatorTester\FormulaEvaluatorTester.csproj", "{D9154EC2-20BD-4223-9EFB-125ABD0B8161}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA09AB69-4107-47F7-998D-C2554D70419E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\architecture.jpg = ..\..\..\..\Downloads\architecture.jpg
+		..\..\..\..\Downloads\dependency_graph_whiteboard.jpg = ..\..\..\..\Downloads\dependency_graph_whiteboard.jpg
+		..\..\..\..\Downloads\formula_whiteboard.jpg = ..\..\..\..\Downloads\formula_whiteboard.jpg
+		README.md = README.md
+		..\..\..\..\Downloads\spreadsheet_whiteboard.jpg = ..\..\..\..\Downloads\spreadsheet_whiteboard.jpg
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DenpencyGraphTest", "DependencyGraphTests\DenpencyGraphTest.csproj", "{6888D972-B0C0-4E52-925F-ABE2867AA27B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyGraph", "DependencyGraph\DependencyGraph.csproj", "{6472FDC4-E9B6-4321-8EE4-7AFE99E1040C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formula", "Formula\Formula.csproj", "{E8EA2AFD-9DEB-4796-852B-8432C73D4650}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaTests", "FormulaTests\FormulaTests.csproj", "{88C72638-C826-4B42-9D5F-0FEAF37A36AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spreadsheet", "Spreadsheet\Spreadsheet.csproj", "{7C8EDC1E-A8FA-4BBB-BAFF-07BED032946E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpreadsheetTests", "SpreadsheetTests\SpreadsheetTests.csproj", "{FFAB9824-D96B-4A11-9862-9A4DE4A83DCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI", "GUI\GUI.csproj", "{02F04FA6-4A10-4D4C-8977-2B1C577B95C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Whiteboard", "Whiteboard", "{C32AAA17-C3FE-4A4A-BBFF-210E8775F27A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\dependency_graph_whiteboard.jpg = ..\..\..\..\Downloads\dependency_graph_whiteboard.jpg
+		..\..\..\..\Downloads\formula_whiteboard.jpg = ..\..\..\..\Downloads\formula_whiteboard.jpg
+		..\..\..\..\Downloads\spreadsheet_whiteboard.jpg = ..\..\..\..\Downloads\spreadsheet_whiteboard.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F241E9-C59A-47CF-B25D-08CA4DBE976F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F241E9-C59A-47CF-B25D-08CA4DBE976F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F241E9-C59A-47CF-B25D-08CA4DBE976F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F241E9-C59A-47CF-B25D-08CA4DBE976F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9154EC2-20BD-4223-9EFB-125ABD0B8161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9154EC2-20BD-4223-9EFB-125ABD0B8161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9154EC2-20BD-4223-9EFB-125ABD0B8161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9154EC2-20BD-4223-9EFB-125ABD0B8161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6888D972-B0C0-4E52-925F-ABE2867AA27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6888D972-B0C0-4E52-925F-ABE2867AA27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6888D972-B0C0-4E52-925F-ABE2867AA27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6888D972-B0C0-4E52-925F-ABE2867AA27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6472FDC4-E9B6-4321-8EE4-7AFE99E1040C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6472FDC4-E9B6-4321-8EE4-7AFE99E1040C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6472FDC4-E9B6-4321-8EE4-7AFE99E1040C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6472FDC4-E9B6-4321-8EE4-7AFE99E1040C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EA2AFD-9DEB-4796-852B-8432C73D4650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EA2AFD-9DEB-4796-852B-8432C73D4650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EA2AFD-9DEB-4796-852B-8432C73D4650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EA2AFD-9DEB-4796-852B-8432C73D4650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C72638-C826-4B42-9D5F-0FEAF37A36AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C72638-C826-4B42-9D5F-0FEAF37A36AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C72638-C826-4B42-9D5F-0FEAF37A36AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C72638-C826-4B42-9D5F-0FEAF37A36AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8EDC1E-A8FA-4BBB-BAFF-07BED032946E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8EDC1E-A8FA-4BBB-BAFF-07BED032946E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8EDC1E-A8FA-4BBB-BAFF-07BED032946E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8EDC1E-A8FA-4BBB-BAFF-07BED032946E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAB9824-D96B-4A11-9862-9A4DE4A83DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAB9824-D96B-4A11-9862-9A4DE4A83DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAB9824-D96B-4A11-9862-9A4DE4A83DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAB9824-D96B-4A11-9862-9A4DE4A83DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F04FA6-4A10-4D4C-8977-2B1C577B95C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F04FA6-4A10-4D4C-8977-2B1C577B95C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F04FA6-4A10-4D4C-8977-2B1C577B95C2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02F04FA6-4A10-4D4C-8977-2B1C577B95C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F04FA6-4A10-4D4C-8977-2B1C577B95C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F04FA6-4A10-4D4C-8977-2B1C577B95C2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7CDF958-34DA-4401-AF9E-D56B3FD7DB57}
+	EndGlobalSection
+EndGlobal

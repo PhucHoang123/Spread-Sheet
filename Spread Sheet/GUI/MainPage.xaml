@@ -1,0 +1,62 @@
+﻿ ﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GUI.MainPage"
+             Loaded="OnPageLoaded">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="File">
+            <MenuFlyoutItem Text="New" Clicked="FileMenuNew" />
+            <MenuFlyoutItem Text="Open" Clicked="FileMenuOpenAsync" />
+            <MenuFlyoutItem Text="Save" Clicked="Save" />
+            <MenuFlyoutItem Text="Help?" Clicked="Help" />
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+
+    <VerticalStackLayout x:Name="Entire">
+
+        <!-- A Place to put the currently selected cell "name" and "value" -->
+        <Border
+            StrokeThickness="2"
+            HeightRequest="40">
+
+            <HorizontalStackLayout >
+                <Label x:Name="selectedCell" Text="hello" WidthRequest="100"/>
+                <Label x:Name="showContent" Text="=a1+2?" WidthRequest="1000"/>
+            </HorizontalStackLayout>
+        </Border>
+        <StackLayout>
+            <!-- Column headers -->
+            <HorizontalStackLayout x:Name="TopLabels" BackgroundColor="PeachPuff"></HorizontalStackLayout>
+
+            <!-- The Grid of Spreadsheet GUI Cells -->
+            <ScrollView
+            x:Name="Table"
+            Orientation="Both"
+            HorizontalOptions="FillAndExpand"
+            HorizontalScrollBarVisibility="Always"
+            HeightRequest="500"
+            Scrolled="OnTopLabelsScrolled">
+                <HorizontalStackLayout>
+                    <ScrollView Orientation="Vertical"
+                            VerticalOptions="FillAndExpand"
+                            VerticalScrollBarVisibility="Always">
+                        <VerticalStackLayout x:Name="LeftLabels" BackgroundColor="LightPink"></VerticalStackLayout>
+                    </ScrollView>
+                    <!--<ScrollView Orientation="Horizontal"
+                            HorizontalOptions="FillAndExpand"
+                            HorizontalScrollBarVisibility="Always">
+                        <Grid x:Name="Grid" BackgroundColor="Lavender"></Grid>
+                    </ScrollView>-->
+                    <VerticalStackLayout x:Name="bar" HorizontalOptions="Start">
+
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+            </ScrollView>
+
+
+        </StackLayout>
+    </VerticalStackLayout>
+
+
+</ContentPage>
